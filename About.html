@@ -1,0 +1,1045 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Courgette&family=Mooli&family=Poppins:wght@500;700;900&family=Roboto:ital,wght@0,400;1,700&display=swap"
+        rel="stylesheet">
+    <title>About</title>
+
+    <style>
+ * 
+   {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+   }
+
+body
+ {
+    background: rgba(0, 0, 0, 0.05);
+ }
+
+.main {
+    width: 100%;
+}
+
+.navbar {
+    width: 80%;
+    height: 80px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    line-height: 80px;
+    padding: 0px 25px;
+}
+
+.logo {
+    font-size: 22px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+}
+
+.nav-content {
+    display: none;
+}
+
+.nav-content ul {
+    list-style: none;
+}
+
+.nav-content ul li {
+    padding: 10px 10px;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 100;
+}
+
+.nav-content ul li .cont {
+    color: #D5C455;
+}
+
+.nav-content ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav-con:hover .nav-content {
+    display: block;
+    position: absolute;
+    /* top: 10%; */
+    right: 11.5%;
+    background-color: white;
+    padding: 10px 20px;
+    box-shadow: 0px 0px 10px #dddbdb;
+}
+
+.content p {
+    display: inline-block;
+    transform: translate(-50%, -50%);
+    position: relative;
+    left: 47%;
+    margin-top: 12%;
+    color: gray;
+    font-weight: 200;
+    font-family: 'Poppins', sans-serif;
+    transition: 0.9s;
+}
+
+.content .home:hover {
+    color: #D5C455;
+    cursor: pointer;
+}
+
+.content .us {
+    transform: translate(-50%, -50%);
+    position: absolute;
+    top: 45%;
+    left: 50.3%;
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+}
+
+.counter-wrap {
+    width: 17%;
+    text-align: center;
+    padding: 50px 30px;
+    position: absolute;
+    top: 67%;
+    left: 10%;
+    margin-bottom: 20px;
+    background: #fff;
+}
+
+.countup {
+    color: #D5C455;
+    font-size: 40px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+
+.caption {
+    font-size: 17px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.counter-wrap2 {
+    width: 17%;
+    text-align: center;
+    padding: 50px 30px;
+    position: absolute;
+    top: 67%;
+    left: 29%;
+    margin-bottom: 20px;
+    background: #fff;
+}
+
+.countup2 {
+    color: #D5C455;
+    font-size: 40px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+
+.caption2 {
+    font-size: 17px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.counter-wrap3 {
+    width: 17%;
+    text-align: center;
+    padding: 50px 30px;
+    position: absolute;
+    top: 98%;
+    left: 10%;
+    margin-bottom: 20px;
+    background: #fff;
+}
+
+.countup3 {
+    color: #D5C455;
+    font-size: 40px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+
+.caption3 {
+    font-size: 17px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.counter-wrap4 {
+    width: 17%;
+    text-align: center;
+    padding: 50px 30px;
+    position: absolute;
+    top: 98%;
+    left: 29%;
+    margin-bottom: 20px;
+    background: #fff;
+}
+
+.countup4 {
+    color: #D5C455;
+    font-size: 40px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+
+.caption4 {
+    font-size: 17px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.contener h5 {
+    position: absolute;
+    top: 67%;
+    left: 50%;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    color: #D5C455;
+}
+
+.contener .ui {
+    position: absolute;
+    top: 73%;
+    left: 50%;
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+}
+
+.contener .lorem {
+    position: absolute;
+    top: 93%;
+    left: 50%;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(169, 169, 169);
+}
+
+.con5 {
+    position: absolute;
+    top: 105%;
+    left: 50%;
+    font-family: 'Poppins', sans-serif;
+}
+
+.con5 span {
+    color: #D5C455;
+    font-weight: bold;
+}
+
+.con6 {
+    position: absolute;
+    top: 105%;
+    left: 73%;
+    font-family: 'Poppins', sans-serif;
+}
+
+.con6 span {
+    color: #D5C455;
+    font-weight: bold;
+}
+
+.con7 {
+    position: absolute;
+    top: 111%;
+    left: 50%;
+    font-family: 'Poppins', sans-serif;
+}
+
+.con7 span {
+    color: #D5C455;
+    font-weight: bold;
+}
+
+.con8 {
+    position: absolute;
+    top: 111%;
+    left: 73%;
+    font-family: 'Poppins', sans-serif;
+}
+
+.con8 span {
+    color: #D5C455;
+    font-weight: bold;
+}
+
+.con9 {
+    position: absolute;
+    top: 117%;
+    left: 50%;
+    font-family: 'Poppins', sans-serif;
+}
+
+.con9 span {
+    color: #D5C455;
+    font-weight: bold;
+}
+
+.con10 {
+    position: absolute;
+    top: 117%;
+    left: 73%;
+    font-family: 'Poppins', sans-serif;
+}
+
+.con10 span {
+    color: #D5C455;
+    font-weight: bold;
+}
+
+.con-main a {
+    position: absolute;
+    top: 125%;
+    left: 50%;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    padding: 10px 20px;
+    color: white;
+    background-color: #D5C455;
+}
+
+
+
+.flow
+ {
+    width: 100%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: 70%;
+    font-family: 'Poppins', sans-serif;
+}
+
+.flow h5 {
+    color: #D5C455;
+    text-align: center;
+}
+
+.flow h1 {
+    font-size: 40px;
+    text-align: center;
+}
+
+.main01 {
+    width: 90%;
+    display: flex;
+    margin: auto;
+    padding-left: 40px;
+}
+
+.flow .flow-main {
+    width: 70%;
+    margin: 100px auto;
+}
+
+.flow-main p {
+    display: inline-block;
+}
+
+.flow-main h4 {
+    display: inline-block;
+    margin-left: 37%;
+    color: #D5C455;
+}
+
+.flow-main .flow-main1 {
+    width: 90%;
+    height: 10px;
+    background-color: rgb(219, 219, 219);
+    border-radius: 10px;
+    margin: 20px 0px 30px 0px;
+}
+
+.flow-main1 .main1-1 {
+    width: 90%;
+    height: 10px;
+    background-color: #D5C455;
+    border-radius: 10px;
+}
+
+.flow .flow-main2 {
+    width: 70%;
+    margin: 100px auto;
+}
+
+.flow-main2 p {
+    display: inline-block;
+}
+
+.flow-main2 h4 {
+    display: inline-block;
+    margin-left: 65%;
+    color: #D5C455;
+}
+
+.flow-main2 .flow-main2 {
+    width: 90%;
+    height: 10px;
+    background-color: rgb(219, 219, 219);
+    border-radius: 10px;
+    margin: 20px 0px 30px 0px;
+}
+
+.flow-main2 .main2-1 {
+    width: 95%;
+    height: 10px;
+    background-color: #D5C455;
+    border-radius: 10px;
+}
+
+.flow .flow-main3 {
+    width: 70%;
+    margin: 100px auto;
+}
+
+.flow-main3 p {
+    display: inline-block;
+}
+
+.flow-main3 h4 {
+    display: inline-block;
+    margin-left: 37%;
+    color: #D5C455;
+}
+
+.flow-main3 .flow-main3 {
+    width: 90%;
+    height: 10px;
+    background-color: rgb(219, 219, 219);
+    border-radius: 10px;
+    margin: 20px 0px 30px 0px;
+}
+
+.flow-main3 .main3-1 {
+    width: 90%;
+    height: 10px;
+    background-color: #D5C455;
+    border-radius: 10px;
+}
+
+.main002 {
+    width: 90%;
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    margin: auto;
+    padding-left: 40px;
+}
+
+.main002 .flow-main {
+    width: 70%;
+    margin: 100px auto;
+}
+
+.flow-main p {
+    display: inline-block;
+}
+
+.flow-main h4 {
+    display: inline-block;
+    margin-left: 45%;
+    color: #D5C455;
+}
+
+.flow-main .flow-main1-1 {
+    width: 85%;
+    height: 10px;
+    background-color: rgb(219, 219, 219);
+    border-radius: 10px;
+    margin: 20px 0px 30px 0px;
+}
+
+.flow-main1-1 .main1-1-1 {
+    width: 90%;
+    height: 10px;
+    background-color: #D5C455;
+    border-radius: 10px;
+}
+
+.flow .flow-main2 {
+    width: 70%;
+    margin: 100px auto;
+}
+
+.flow-main2 p {
+    display: inline-block;
+}
+
+.flow-main2 h4 {
+    display: inline-block;
+    margin-left: 65%;
+    color: #D5C455;
+}
+
+.flow-main2 .flow-main2 {
+    width: 90%;
+    height: 10px;
+    background-color: rgb(219, 219, 219);
+    border-radius: 10px;
+    margin: 20px 0px 30px 0px;
+}
+
+.flow-main2 .main2-1 {
+    width: 95%;
+    height: 10px;
+    background-color: #D5C455;
+    border-radius: 10px;
+}
+
+.flow .flow-main03 {
+    width: 70%;
+    margin: 100px auto;
+}
+
+.flow-main03 p {
+    display: inline-block;
+}
+
+.flow-main03 h4 {
+    display: inline-block;
+    margin-left: 62%;
+    color: #D5C455;
+}
+
+.flow-main03 .flow-main3 {
+    width: 90%;
+    height: 10px;
+    background-color: rgb(219, 219, 219);
+    border-radius: 10px;
+    margin: 20px 0px 30px 0px;
+}
+
+.flow-main03 .main3-1 {
+    width: 90%;
+    height: 10px;
+    background-color: #D5C455;
+    border-radius: 10px;
+}
+
+.main003 {
+    width: 90%;
+    display: flex;
+    position: absolute;
+    top: 78%;
+    left: 5%;
+    margin: auto;
+    padding-left: 40px;
+}
+
+.main003 .flow-main {
+    width: 70%;
+    margin: 100px auto;
+}
+
+.main003 .flow-main p {
+    display: inline-block;
+}
+
+.main003 .flow-main h4 {
+    display: inline-block;
+    margin-left: 29%;
+    color: #D5C455;
+}
+
+.main003 .flow-main .flow-main1-1 {
+    width: 85%;
+    height: 10px;
+    background-color: rgb(219, 219, 219);
+    border-radius: 10px;
+    margin: 20px 0px 30px 0px;
+}
+
+.main003 .flow-main1-1 .main1-1-1 {
+    width: 70%;
+    height: 10px;
+    background-color: #D5C455;
+    border-radius: 10px;
+}
+
+.main003 .flow .flow-main2 {
+    width: 70%;
+    margin: 100px auto;
+}
+
+.main003 .flow-main2 p {
+    display: inline-block;
+}
+
+.main003 .flow-main2 h4 {
+    display: inline-block;
+    margin-left: 45%;
+    color: #D5C455;
+}
+
+.main003 .flow-main2 .flow-main2 {
+    width: 90%;
+    height: 10px;
+    background-color: rgb(219, 219, 219);
+    border-radius: 10px;
+    margin: 20px 0px 30px 0px;
+}
+
+.main003 .flow-main2 .main2-1 {
+    width: 80%;
+    height: 10px;
+    background-color: #D5C455;
+    border-radius: 10px;
+}
+
+.main003 .flow .flow-main03 {
+    width: 70%;
+    margin: 100px auto;
+}
+
+.main003 .flow-main03 p {
+    display: inline-block;
+}
+
+.main003 .flow-main03 h4 {
+    display: inline-block;
+    margin-left: 55%;
+    color: #D5C455;
+}
+
+.main003 .flow-main03 .flow-main3 {
+    width: 90%;
+    height: 10px;
+    background-color: rgb(219, 219, 219);
+    border-radius: 10px;
+    margin: 20px 0px 30px 0px;
+}
+
+.main003 .flow-main03 .main3-1 {
+    width: 80%;
+    height: 10px;
+    background-color: #D5C455;
+    border-radius: 10px;
+}
+
+.fresher {
+    position: absolute;
+    top: 295%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 85%;
+    font-family: 'Poppins', sans-serif;
+    margin: auto;
+}
+
+.fresher h4 {
+    text-align: center;
+    color: #D5C455;
+}
+
+.fresher h1 {
+    text-align: center;
+    font-size: 40px;
+}
+
+.fresher-content {
+    width: 28%;
+    height: 230px;
+    background-color: #ffffff;
+    position: relative;
+    border-radius: 10px;
+}
+
+.fresher-content .img {
+    width: 30%;
+    padding: 10px;
+}
+
+.fresher-content .img img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.fresher-content .img span {
+    position: absolute;
+    top: 27%;
+    left: 18%;
+    background-color: #D5C455;
+    color: white;
+    height: 40px;
+    width: 40px;
+    font-size: 25px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+}
+
+.fresher-content h2 {
+    position: absolute;
+    top: 10%;
+    left: 35%;
+}
+
+.fresher-content h4 {
+    position: absolute;
+    top: 25%;
+    left: 35%
+}
+
+.fresher-content p {
+    position: absolute;
+    top: 55%;
+    left: 5%;
+    color: gray;
+}
+
+.fresher-content2 {
+    width: 28%;
+    height: 230px;
+    background-color: #ffffff;
+    position: relative;
+    left: 35.5%;
+    margin-top: -17.8%;
+    border-radius: 10px;
+}
+
+.fresher-content2 .img {
+    width: 30%;
+    padding: 10px;
+}
+
+.fresher-content2 .img img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.fresher-content2 .img span {
+    position: absolute;
+    top: 27%;
+    left: 18%;
+    background-color: #D5C455;
+    color: white;
+    height: 40px;
+    width: 40px;
+    font-size: 25px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+}
+
+.fresher-content2 h2 {
+    position: absolute;
+    top: 10%;
+    left: 35%;
+}
+
+.fresher-content2 h4 {
+    position: absolute;
+    top: 25%;
+    left: 35%
+}
+
+.fresher-content2 p {
+    position: absolute;
+    top: 55%;
+    left: 5%;
+    color: gray;
+}
+
+.fresher-content3 {
+    width: 28%;
+    height: 230px;
+    background-color: #ffffff;
+    position: relative;
+    left: 72%;
+    margin-top: -17.8%;
+    border-radius: 10px;
+}
+
+.fresher-content3 .img {
+    width: 30%;
+    padding: 10px;
+}
+
+.fresher-content3 .img img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.fresher-content3 .img span {
+    position: absolute;
+    top: 27%;
+    left: 18%;
+    background-color: #D5C455;
+    color: white;
+    height: 40px;
+    width: 40px;
+    font-size: 25px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+}
+
+.fresher-content3 h2 {
+    position: absolute;
+    top: 10%;
+    left: 35%;
+}
+
+.fresher-content3 h4 {
+    position: absolute;
+    top: 25%;
+    left: 35%
+}
+
+.fresher-content3 p {
+    position: absolute;
+    top: 55%;
+    left: 5%;
+    color: gray;
+}
+
+footer {
+    transform: translate(-50%, -50%);
+    position: absolute;
+    top: 350%;
+    left: 50%;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+footer p {
+    color: gray;
+}
+
+footer a {
+    text-decoration: none;
+    color: #D5C455;
+}
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <div class="navbar">
+            <div class="logo">
+                Schmt.
+            </div>
+            <div class="nav-con">
+                <i class="fa-solid fa-bars">
+                    <div class="nav-content">
+                        <ul>
+                            <li><a href="index.html"    target="_blank">Home</a></li>
+                            <li><a href="about.html"    target="_blank"class="cont">About</a></li>
+                            <li><a href="service.html" target="_blank">Services</a></li>
+                            <li><a href="Experiences.html" target="_blank">Experiences</a></li>
+                            <li><a href="work.html" target="_blank">Work</a></li>
+                            <li><a href="blog.html" target="_blank">Blog</a></li>
+                            <li><a href="Contact.html" target="_blank">Contact</a></li>
+                        </ul>
+                    </div>
+                </i>
+            </div>
+        </div>
+            <div class="content">
+                <p class="home">HOME &#x203A;</p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <p>ABOUT US &#x203A;</p>
+                <h1 class="us">About Us</h1>
+            </div>
+
+        <div class="conte01">
+            <div class="counter-wrap">
+                <span class="countup">5,000</span><br>
+                <span class="caption">Happy Clients</span>
+            </div>
+
+            <div class="counter-wrap2">
+                <span class="countup2">1,200</span><br>
+                <span class="caption2">Projects Done</span>
+            </div>
+
+            <div class="counter-wrap3">
+                <span class="countup3">500</span><br>
+                <span class="caption3">Cups of Coffee</span>
+            </div>
+
+            <div class="counter-wrap4">
+                <span class="countup4">587</span><br>
+                <span class="caption4">Working Hourse</span>
+            </div>
+        </div>
+
+        <div class="contener">
+            <h5>ABOUT ME</h5>
+            <p class="ui">
+                A UI/UX Designer & Web <br>Developer Based in Philippines
+            </p>
+            <p class="lorem">Far far away, behind the word mountains, far from the countries Vokalia and
+                <br>Consonantia, there live the blind texts.</p>
+        </div>
+        <div class="con-main">
+            <div class="con5">
+                <p>Name:
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span>Clyde
+                        Nowitzki</span></p>
+            </div>
+            <div class="con6">
+                <p>Zip code: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span>1000</span></p>
+            </div>
+            <div class="con7">
+                <p>Date of birth: &nbsp;&nbsp;&nbsp;&nbsp;<span>January 01, 1990</span></p>
+            </div>
+            <div class="con8">
+                <p>Email:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span>cydenowitzki@gmail.com</span>
+                </p>
+            </div>
+            <div class="con9">
+                <p>Address:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span>San
+                        Francisco CA 97987</span></p>
+            </div>
+            <div class="con10">
+                <p>Phone:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span>+1-2234-5678-9-0</span>
+                </p>
+            </div>
+            <a href="#">DOWMLOAD CV</a>
+        </div>
+
+        <div class="flow">
+            <h5>SKILLS</h5>
+            <h1>My Skills</h1>
+            <div class="main01">
+                <div class="flow-main">
+                    <p>ADOBE PHOTOSHOP</p>
+                    <h4>90%</h4>
+                    <div class="flow-main1">
+                        <div class="main1-1"></div>
+                    </div>
+                </div>
+
+                <div class="flow-main2">
+                    <p>FIGMA</p>
+                    <h4>95%</h4>
+                    <div class="flow-main2">
+                        <div class="main2-1"></div>
+                    </div>
+                </div>
+
+                <div class="flow-main3">
+                    <p>ADOBE ILLUSTRATOR</p>
+                    <h4>90%</h4>
+                    <div class="flow-main3">
+                        <div class="main3-1"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="main002">
+                <div class="flow-main">
+                    <p>JAVASCRIPT</p>
+                    <h4>85%</h4>
+                    <div class="flow-main1-1">
+                        <div class="main1-1-1"></div>
+                    </div>
+                </div>
+
+                <div class="flow-main2">
+                    <p>HTML5</p>
+                    <h4>95%</h4>
+                    <div class="flow-main2">
+                        <div class="main2-1"></div>
+                    </div>
+                </div>
+
+                <div class="flow-main03">
+                    <p>CSS3</p>
+                    <h4>90%</h4>
+                    <div class="flow-main3">
+                        <div class="main3-1"></div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="main003">
+                <div class="flow-main">
+                    <p>WORDPRESS</p>
+                    <h4>70%</h4>
+                    <div class="flow-main1-1">
+                        <div class="main1-1-1"></div>
+                    </div>
+                </div>
+
+                <div class="flow-main2">
+                    <p>ADOBE XD</p>
+                    <h4>80%</h4>
+                    <div class="flow-main2">
+                        <div class="main2-1"></div>
+                    </div>
+                </div>
+
+                <div class="flow-main03">
+                    <p>SEO</p>
+                    <h4>80%</h4>
+                    <div class="flow-main3">
+                        <div class="main3-1"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="fresher">
+            <h4>TESTIMONIAL</h4>
+            <h1>Happy Guests</h1><br><br><br><br>
+
+            <div class="fresher-content">
+                <div class="fresher-con1">
+                    <div class="img">
+                        <img src="img/person_3.jpg.webp" alt="">
+                        <span>&#x267B;</span>
+                    </div>
+                    <h2>Roger Scott</h3>
+                        <h4>MARKETING MANAGER</h4>
+                        <p>Far far away, behind the word mountains,<br> far from the countries Vokalia and
+                            <br>Consonantia, there live the blind texts.</p>
+                </div>
+            </div>
+
+            <div class="fresher-content2">
+                <div class="fresher-con1">
+                    <div class="img">
+                        <img src="img/person_2.jpg.webp" alt="">
+                        <span>&#x267B;</span>
+                    </div>
+                    <h2>Roger Scott</h3>
+                        <h4>MARKETING MANAGER</h4>
+                        <p>Far far away, behind the word mountains,<br> far from the countries Vokalia and
+                            <br>Consonantia, there live the blind texts.</p>
+                </div>
+            </div>
+
+            <div class="fresher-content3">
+                <div class="fresher-con1">
+                    <div class="img">
+                        <img src="img/person_1.jpg.webp" alt="">
+                        <span>&#x267B;</span>
+                    </div>
+                    <h2>Roger Scott</h3>
+                        <h4>MARKETING MANAGER</h4>
+                        <p>Far far away, behind the word mountains,<br> far from the countries Vokalia and
+                            <br>Consonantia, there live the blind texts.</p>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <p>Copyright ©2023 All rights reserved | This template is made with &#10084; by <a href="#">MEHUL</a></p>
+        </footer>
+    </div>
+</body>
+
+</html>
